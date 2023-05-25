@@ -8,6 +8,7 @@ import CardMedia from "@mui/material/CardMedia";
 
 import Typography from "@mui/material/Typography";
 import { GitHub } from "@mui/icons-material";
+import { CardMock } from "./Mock";
 interface dataProps {
   id: string;
   img: string;
@@ -15,21 +16,12 @@ interface dataProps {
   text: string;
 }
 export const Cards = () => {
-  const [data, setData] = useState<dataProps[]>([]);
-
-  useEffect(() => {
-    fetch("http://localhost:5173/data/card.json")
-      .then((response) => response.json())
-      .then((valor: dataProps[]) => {
-        setData(valor);
-      });
-  }, []);
   return (
     <div
       className="flex flex-col mt-4 md:grid md:grid-cols-3 md:w-[80%] md:gap-8 md:mx-auto 
     "
     >
-      {data.map((item) => (
+      {CardMock.map((item) => (
         <div key={item.id} className="gap-10 ">
           <Card className=" dark:bg-slate-700 dark:text-white">
             <CardMedia sx={{ height: 300, width: 300 }} image={item.img} />
