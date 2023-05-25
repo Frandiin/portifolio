@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { IconButton } from "@mui/material";
 
 import Card from "@mui/material/Card";
@@ -9,12 +8,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { GitHub } from "@mui/icons-material";
 import { CardMock } from "./Mock";
-interface dataProps {
-  id: string;
-  img: string;
-  title: string;
-  text: string;
-}
+
 export const Cards = () => {
   return (
     <div
