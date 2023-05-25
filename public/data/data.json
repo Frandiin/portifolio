@@ -29,23 +29,19 @@
     "skill": "Node.js",
     "image": "nodejs-icon.svg"
   },
+
   {
     "id": "7",
-    "skill": "Json",
-    "image": "json-5.svg"
-  },
-  {
-    "id": "8",
     "skill": "Tailwind",
     "image": "tailwind-css-2.svg"
   },
   {
-    "id": "9",
+    "id": "8",
     "skill": "BootStrap",
     "image": "bootstrap-4.svg"
   },
   {
-    "id": "10",
+    "id": "9",
     "skill": "Git",
     "image": "git-icon.svg"
   }

@@ -7,7 +7,7 @@ import { Cards } from "./Card";
 export const Home = () => {
   return (
     <>
-      <div className="w-full h-full flex flex-col items-center mt-10 md:grid md:grid-cols-2 md:top-0 ">
+      <div className="w-full h-full flex flex-col items-center mt-10 md:grid md:grid-cols-2 md:top-0">
         <img src="logo.svg" />
         <p className="flex flex-col justify-center p-10 text-justify">
           Desenvolvedor front-end altamente motivado, recém-formado em Análise
@@ -20,10 +20,7 @@ export const Home = () => {
           desafios em equipe, contribuindo para projetos de sucesso.
         </p>
       </div>
-      <div className="w-full h-full flex flex-col items-center mt-10 md:grid md:grid-cols-2 md:top-0  ">
-        <p className="flex flex-col justify-center p-10 text-justify">dasdas</p>
-        <img src="logo2.jpg" />
-      </div>
+
       <div>
         <p className="text-center">Habilidades</p>
         <Carousel />

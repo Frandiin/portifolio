@@ -1,11 +1,9 @@
 import { Router } from "./Router";
-import { Footer } from "./componets/Footer";
-import { Header } from "./componets/Header";
 
 function App() {
   return (
     <>
-      <div>
+      <div className=" dark:bg-slate-700 dark:text-white">
         <Router />
       </div>
     </>
