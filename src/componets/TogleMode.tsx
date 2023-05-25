@@ -19,7 +19,7 @@ export const TogleMode = () => {
         }}
         sx={{ padding: 1, borderRadius: "12px" }}
       >
-        {tema === "light" ? <DarkMode /> : <LightMode />}
+        {tema === "light" ? <LightMode /> : <DarkMode />}
       </ListItemButton>
     </div>
   );
