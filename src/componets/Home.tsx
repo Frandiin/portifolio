@@ -1,8 +1,4 @@
-import { Footer } from "./Footer";
-import logo2 from "/logo2.jpg";
-
 import { Carousel } from "./Carousel";
-import { Cards } from "./Card";
 
 export const Home = () => {
   return (

@@ -1,5 +1,5 @@
 import { Email, LinkedIn, WhatsApp } from "@mui/icons-material";
-import { Button, IconButton, TextField, TextareaAutosize } from "@mui/material";
+import { Button } from "@mui/material";
 import { MDBFooter, MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import { useState } from "react";
 

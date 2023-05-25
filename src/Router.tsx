@@ -3,7 +3,6 @@ import { Home } from "./componets/Home";
 
 import { Header } from "./componets/Header";
 import { Suspense } from "react";
-import { Sobre } from "./componets/Sobre";
 
 import { Projetos } from "./componets/Projetos";
 import { NotFout } from "./componets/NotFout";

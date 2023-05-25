@@ -1,12 +1,6 @@
 import { DarkMode, LightMode } from "@mui/icons-material";
-import {
-  Checkbox,
-  FormControlLabel,
-  FormGroup,
-  ListItemButton,
-  TextField,
-} from "@mui/material";
-import React, { useEffect, useState } from "react";
+import { ListItemButton } from "@mui/material";
+import { useEffect, useState } from "react";
 
 export const TogleMode = () => {
   const [tema, setTema] = useState(localStorage.getItem("tema") ?? "light");
