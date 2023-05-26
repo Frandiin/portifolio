@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export const Footer = () => {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+
   const [message, setMessage] = useState("");
   return (
     <>
@@ -14,7 +14,7 @@ export const Footer = () => {
           <MDBRow>
             <MDBCol>
               <form className="flex flex-col gap-4 max-w-[60%] mx-auto text-left ">
-                Name
+                Nome
                 <input
                   className="bg-slate-50 dark:bg-slate-100 dark:text-black h-10 "
                   type="text"
@@ -24,19 +24,9 @@ export const Footer = () => {
                     setName(e.target.value);
                   }}
                 />
-                Email
-                <input
-                  className="bg-slate-50 dark:bg-slate-100 dark:text-black h-10"
-                  type="text"
-                  value={email}
-                  placeholder="Digite seu e-mail"
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                  }}
-                />
-                Message
+                Mensagem
                 <textarea
-                  className="bg-slate-50     dark:bg-slate-100 dark:text-black max-h-80"
+                  className="bg-slate-50     dark:bg-slate-100 dark:text-black h-[200px]"
                   value={message}
                   placeholder="Digite sua mensagem de forma clara e objetiva"
                   onChange={(e) => {
@@ -48,7 +38,7 @@ export const Footer = () => {
                   id="link"
                   target="_blank"
                   href={`https://wa.me/5511958394250?${new URLSearchParams({
-                    text: `Olá me chamo ${name}\né por meio deste email ${email}\n${message}`,
+                    text: `Olá me chamo ${name}\n${message}`,
                   })}`}
                 >
                   Enviar Mensagem
