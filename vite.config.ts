@@ -18,7 +18,7 @@ export default defineConfig({
           },
           {
             src: "/w-button-icon.png",
-            sizes: "512x512",
+            sizes: "128x128",
             type: "image/png",
           },
           {
