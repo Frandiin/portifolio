@@ -22,7 +22,7 @@ export default defineConfig({
             type: "image/png",
           },
           {
-            src: "/w-button-icon.png",
+            src: "/css-3.svg",
             sizes: "128x128",
             type: "image/png",
           },
