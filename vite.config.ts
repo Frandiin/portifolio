@@ -5,26 +5,21 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: [
-        "favicon.svg",
-        "robots.txt",
-        "safari-pinned-tab.svg, ",
-        " icon-app.svg",
-      ],
+      includeAssets: ["favicon.svg", "robots.txt", "safari-pinned-tab.svg, "],
       manifest: {
         name: "Portifolio",
         short_name: "Portifolio",
         theme_color: "#ffffff",
         icons: [
           {
-            src: "/icon-app.svg",
+            src: "/w-button-icon.png",
             sizes: "192x192",
-            type: "image/svg+xml",
+            type: "image/png",
           },
           {
-            src: "/icon-app.svg",
+            src: "/w-button-icon.png",
             sizes: "512x512",
-            type: "image/svg+xml",
+            type: "image/png",
           },
         ],
       },
