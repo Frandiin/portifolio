@@ -8,7 +8,8 @@ export default defineConfig({
       includeAssets: [
         "favicon.svg",
         "robots.txt",
-        "safari-pinned-tab.svg, icon-app.svg",
+        "safari-pinned-tab.svg, ",
+        " icon-app.svg",
       ],
       manifest: {
         name: "Portifolio",
