@@ -12,17 +12,7 @@ export default defineConfig({
         theme_color: "#ffffff",
         icons: [
           {
-            src: "/w-button-icon.png",
-            sizes: "192x192",
-            type: "image/png",
-          },
-          {
-            src: "/w-button-icon.png",
-            sizes: "128x128",
-            type: "image/png",
-          },
-          {
-            src: "/css-3.svg",
+            src: "/w-icon.png",
             sizes: "128x128",
             type: "image/png",
           },
