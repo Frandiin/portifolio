@@ -14,12 +14,12 @@ export default defineConfig({
           {
             src: "/icon-app.svg",
             sizes: "192x192",
-            type: "image/png",
+            type: "image/svg+xml",
           },
           {
             src: "/icon-app.svg",
             sizes: "512x512",
-            type: "image/png",
+            type: "image/svg+xml",
           },
         ],
       },
