@@ -7,17 +7,17 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "robots.txt", "safari-pinned-tab.svg"],
       manifest: {
-        name: "My React App",
-        short_name: "React App",
+        name: "Portifolio",
+        short_name: "Portifolio App",
         theme_color: "#ffffff",
         icons: [
           {
-            src: "/pwa-192x192.png",
+            src: "./icon-app.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "/pwa-512x512.png",
+            src: "./icon-app.png",
             sizes: "512x512",
             type: "image/png",
           },

@@ -21,7 +21,7 @@ export const Header = () => {
               >
                 <Avatar
                   alt="Remy Sharp"
-                  src="https://avatars.githubusercontent.com/u/51239510?v=4"
+                  src="https://avatars.githubusercontent.com/u/65790321?v=4"
                 />
                 <a
                   href="https://github.com/Frandiin"

@@ -21,7 +21,7 @@ export const SideBar = () => {
           <div className="flex flex-col ">
             <Button
               onClick={() => {
-                navigate("/home");
+                navigate("/");
                 setShow(false);
               }}
             >
@@ -37,23 +37,6 @@ export const SideBar = () => {
               Projetos
             </Button>
 
-            <Button
-              onClick={() => {
-                navigate("/sobre");
-                setShow(false);
-              }}
-            >
-              Sobre
-            </Button>
-
-            <Button
-              onClick={() => {
-                navigate("/teste");
-                setShow(false);
-              }}
-            >
-              Contato
-            </Button>
             <div></div>
           </div>
         </div>

@@ -30,3 +30,52 @@ export const CardMock = [
     text: "Praesentium perferendis consequuntur dignissimos laboriosam repellat tempora! Molestiae, eum a modi non saepe ab",
   },
 ];
+
+export const CarouselMock = [
+  {
+    id: "1",
+    skill: "HTML",
+    image: "html5.svg",
+  },
+  {
+    id: "2",
+    skill: "css",
+    image: "css-3.svg",
+  },
+  {
+    id: "3",
+    skill: "JavaScript",
+    image: "javascript.svg",
+  },
+  {
+    id: "4",
+    skill: "TypeScript",
+    image: "typescript.svg",
+  },
+  {
+    id: "5",
+    skill: "React",
+    image: "react.svg",
+  },
+  {
+    id: "6",
+    skill: "Node.js",
+    image: "nodejs-icon.svg",
+  },
+
+  {
+    id: "7",
+    skill: "Tailwind",
+    image: "tailwind-css-2.svg",
+  },
+  {
+    id: "8",
+    skill: "BootStrap",
+    image: "bootstrap-4.svg",
+  },
+  {
+    id: "9",
+    skill: "Git",
+    image: "git-icon.svg",
+  },
+];
