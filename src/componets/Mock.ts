@@ -21,7 +21,7 @@ export const CardMock = [
     title: " Jogo da Velha.",
     text: "O jogo da velha é um jogo de estratégia em que dois jogadores alternam em marcar X ou O em uma grade de 3x3. O objetivo é formar uma linha, coluna ou diagonal com três símbolos iguais antes do oponente para vencer",
     descripton: "jogo-velha-logo.svg",
-    link: "https://chat.openai.com",
+    link: "https://jogo-da-velha-eight-delta.vercel.app",
   },
 ];
 
