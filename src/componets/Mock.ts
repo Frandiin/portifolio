@@ -1,33 +1,27 @@
 export const CardMock = [
   {
     id: "1",
-    img: "bootstrap-4.svg",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    text: " Praesentium perferendis consequuntur dignissimos laboriosam repellat tempora! Molestiae, eum a modi non saepe ab",
+    img: "todo-logo.svg",
+    title: "To-Do-List.",
+    text: " ToDoList é uma lista de tarefas onde você pode adicionar, marcar como concluídas e remover tarefas de forma organizada.",
+    descripton: "todo-logo.svg",
+    link: "https://to-do-list-three-vert.vercel.app",
   },
   {
     id: "2",
-    img: "git-icon.svg",
-    title: " tenetur hic quod atque voluptatibus rem fugiat quas.",
-    text: "Praesentium perferendis consequuntur dignissimos laboriosam repellat tempora! Molestiae, eum a modi non saepe ab",
+    img: "cal-logo.svg",
+    title: " Calculadora.",
+    text: "Uma calculadora é uma ferramenta que permite realizar cálculos matemáticos de forma rápida e precisa, executando operações como adição, subtração, multiplicação e divisão.",
+    descripton: "cal-logo.svg",
+    link: "https://calculadora-eosin-six.vercel.app",
   },
   {
     id: "3",
-    img: "javascript.svg",
-    title: " tenetur hic quod atque voluptatibus rem fugiat quas.",
-    text: "Praesentium perferendis consequuntur dignissimos laboriosam repellat tempora! Molestiae, eum a modi non saepe ab",
-  },
-  {
-    id: "4",
-    img: "react.svg",
-    title: " tenetur hic quod atque voluptatibus rem fugiat quas.",
-    text: "Praesentium perferendis consequuntur dignissimos laboriosam repellat tempora! Molestiae, eum a modi non saepe ab",
-  },
-  {
-    id: "5",
-    img: "css-3.svg",
-    title: " tenetur hic quod atque voluptatibus rem fugiat quas.",
-    text: "Praesentium perferendis consequuntur dignissimos laboriosam repellat tempora! Molestiae, eum a modi non saepe ab",
+    img: "jogo-velha-logo.svg",
+    title: " Jogo da Velha.",
+    text: "O jogo da velha é um jogo de estratégia em que dois jogadores alternam em marcar X ou O em uma grade de 3x3. O objetivo é formar uma linha, coluna ou diagonal com três símbolos iguais antes do oponente para vencer",
+    descripton: "jogo-velha-logo.svg",
+    link: "https://chat.openai.com",
   },
 ];
 

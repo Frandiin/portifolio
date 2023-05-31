@@ -1,4 +1,4 @@
-import { Email, LinkedIn, WhatsApp } from "@mui/icons-material";
+import { Email, GitHub, LinkedIn, WhatsApp } from "@mui/icons-material";
 import { Button } from "@mui/material";
 import { MDBFooter, MDBContainer, MDBCol, MDBRow } from "mdb-react-ui-kit";
 import { useState } from "react";
@@ -83,6 +83,10 @@ export const Footer = () => {
               <a href="mailto:wellingtonfrandin@hotmail.com" target="_blank">
                 <Email sx={{ height: 50, width: 50 }} className="gap-3" />{" "}
                 wellingtonfrandin@hotmail.com
+              </a>
+              <a href="https://github.com/Frandiin" target="_blank">
+                <GitHub sx={{ height: 50, width: 50 }} />
+                Wellington Fernandes Frandim
               </a>
             </MDBCol>
           </MDBRow>
