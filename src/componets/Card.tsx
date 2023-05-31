@@ -6,7 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 
 import Typography from "@mui/material/Typography";
-import { GitHub, WhatsApp } from "@mui/icons-material";
+import { GitHub } from "@mui/icons-material";
 import { CardMock } from "./Mock";
 
 export const Cards = () => {
