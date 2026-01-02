@@ -26,14 +26,14 @@ export const Hero = () => {
               {t('hero.available')}
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-7xl">
+            <h1 className="mb-6 text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-7xl">
               <Trans i18nKey="hero.role">
                 Desenvolvedor <span className="text-gradient">Full Stack</span> focado em soluções
                 escaláveis
               </Trans>
             </h1>
 
-            <p className="mb-8 max-w-xl text-lg leading-relaxed text-white">
+            <p className="mb-8 max-w-xl text-base leading-relaxed text-white sm:text-lg">
               {t('hero.description')}
             </p>
 
@@ -62,17 +62,17 @@ export const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="relative flex items-center justify-center lg:h-[800px]"
           >
-            <div className="relative mx-auto aspect-square w-full max-w-md">
+            <div className="relative mx-auto w-full max-w-md">
               <div className="absolute inset-0 rounded-full bg-indigo-500/30 blur-[100px]" />
 
-              <div className="relative h-[600px] w-full overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/50 p-6 shadow-2xl backdrop-blur-xl">
+              <div className="relative h-[500px] w-full overflow-x-auto overflow-y-auto rounded-2xl border border-slate-800 bg-slate-900/50 p-4 shadow-2xl backdrop-blur-xl sm:h-[600px] sm:p-6">
                 <div className="mb-4 flex items-center gap-2 border-b border-slate-800 pb-4">
                   <div className="h-3 w-3 rounded-full border border-red-500/50 bg-red-500/20" />
                   <div className="h-3 w-3 rounded-full border border-yellow-500/50 bg-yellow-500/20" />
                   <div className="h-3 w-3 rounded-full border border-green-500/50 bg-green-500/20" />
                 </div>
 
-                <div className="space-y-3 font-mono text-sm">
+                <div className="space-y-3 font-mono text-xs sm:text-sm">
                   <div className="flex gap-2">
                     <span className="text-pink-400">const</span>
                     <span className="text-blue-400">{t('hero.portfolio.title')}</span>
@@ -108,9 +108,12 @@ export const Hero = () => {
                     <span className="text-code-string">'Brasil'</span>,
                   </div>
 
-                  <div className="flex gap-2 pl-4">
+                  <div className="flex flex-wrap gap-2 pl-4">
                     <span className="text-code-keyword">{t('hero.portfolio.hobbies.label')}:</span>
-                    <span className="text-code-string">{t('hero.portfolio.hobbies.value')}</span>,
+                    <span className="break-words text-code-string">
+                      {t('hero.portfolio.hobbies.value')}
+                    </span>
+                    ,
                   </div>
 
                   <div className="flex gap-2 pl-4">
@@ -120,9 +123,9 @@ export const Hero = () => {
                         href="https://www.linkedin.com/in/wellington-fernandes-frandim-b6927a189/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="transition-colors hover:text-green-300"
+                        className="break-all transition-colors hover:text-green-300"
                       >
-                        'https://www.linkedin.com/in/wellington-fernandes-frandim-b6927a189/'
+                        'linkedin.com/in/wellington-frandin'
                       </a>
                     </span>
                     ,
