@@ -40,7 +40,7 @@ export const Navbar = () => {
             </span>
           </div>
 
-          <div className="hidden items-center gap-8 md:flex">
+          <div className="hidden items-center gap-8 lg:flex">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.key}
@@ -68,13 +68,13 @@ export const Navbar = () => {
             </a>
           </div>
 
-          <div className="flex items-center gap-4 md:hidden">
+          <div className="flex items-center gap-4 lg:hidden">
             <button
               onClick={toggleLanguage}
               className="flex items-center gap-2 p-2 text-slate-300 transition-colors hover:text-white"
             >
               <Languages size={20} />
-              <span>{i18n.language === 'pt' ? 'English' : 'Portuguese'}</span>
+              <span>{i18n.language === 'pt' ? 'EN' : 'PT'}</span>
             </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -92,7 +92,7 @@ export const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="border-b border-slate-800 bg-slate-950 md:hidden"
+            className="border-b border-slate-800 bg-slate-950 lg:hidden"
           >
             <div className="space-y-4 px-4 py-6">
               {NAV_LINKS.map((link) => (
