@@ -10,16 +10,16 @@
   "hero": {
     "portfolio": {
       "title": "portfolio",
-      "role": "Full Stack Developer",
-      "skills": "Habilidades",
-      "age": "Idade",
+      "role": "cargo",
+      "skills": "habilidades",
+      "age": "idade",
       "hobbies": {
-        "label": "Hobbies",
+        "label": "hobbies",
         "value": "['Assistir animes', 'Jogar bola']"
       },
-      "location": "Endereço",
-      "linkedin": "Linkedin",
-      "gitHub": "GitHub",
+      "location": "endereco",
+      "linkedin": "linkedin",
+      "gitHub": "github",
       "consoleLog": "Disponível para oportunidades remotas/híbridas"
     },
     "available": "Disponível para projetos",
@@ -38,9 +38,9 @@
   },
   "about": {
     "title": "Sobre <1>Mim</1>",
-    "p1": "Sou um desenvolvedor apaixonado por criar software que resolve problemas reais. Com mais de 5 anos de experiência no ecossistema JavaScript, especializei-me na construção de aplicações web modernas, performáticas e escaláveis.",
-    "p2": "Minha abordagem combina um forte conhecimento técnico em <1>arquitetura de software</1> com uma sensibilidade apurada para <2>UX/UI</2>. Acredito que o código limpo é apenas o começo; o verdadeiro valor está em entregar produtos que os usuários adoram usar.",
-    "p3": "Atualmente, foco em stacks baseadas em React e Node.js, sempre buscando aplicar as melhores práticas de desenvolvimento, como TDD, CI/CD e Clean Architecture.",
+    "p1": "Sou Desenvolvedor Full Stack com experiência prática em projetos freelance, atuando no desenvolvimento completo de aplicações web desde o banco de dados até a interface do usuário.",
+    "p2": "Trabalho principalmente com <1>Next.js</1> no front-end e <1>NestJS</1> no back-end, aplicando princípios como <1>Clean Architecture</1>, <1>SOLID</1> e conteinerização com <1>Docker</1>. Meu foco é fornecer código limpo, seguro e escalável com uma boa experiência do usuário (UX/UI).",
+    "p3": "Atualmente, foco em stacks baseadas em React e Nest.js, sempre buscando aplicar as melhores práticas de desenvolvimento, como TDD, CI/CD e Clean Architecture.",
     "stats": {
       "experience": "Anos de Experiência",
       "projects": "Projetos Entregues",

@@ -100,7 +100,7 @@ export const Hero = () => {
 
                   <div className="flex gap-2 pl-4">
                     <span className="text-code-keyword">{t('hero.portfolio.age')}:</span>
-                    <span className="text-code-string">24</span>,
+                    <span className="text-green-400">24</span>,
                   </div>
 
                   <div className="flex gap-2 pl-4">

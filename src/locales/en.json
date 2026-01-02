@@ -10,16 +10,16 @@
   "hero": {
     "portfolio": {
       "title": "portfolio",
-      "role": "Full Stack Developer",
-      "skills": "Skills",
-      "age": "Age",
+      "role": "role",
+      "skills": "skills",
+      "age": "age",
       "hobbies": {
-        "label": "Hobbies",
+        "label": "hobbies",
         "value": "['Watch anime', 'Play ball']"
       },
-      "location": "Location",
-      "linkedin": "Linkedin",
-      "gitHub": "GitHub",
+      "location": "location",
+      "linkedin": "linkedin",
+      "gitHub": "github",
       "consoleLog": "Available for remote/hybrid opportunities"
     },
     "available": "Available for projects",
@@ -40,7 +40,7 @@
     "title": "About <1>Me</1>",
     "p1": "I am a Full Stack Developer with practical experience in freelance projects, working on the complete development of web applications from the database to the user interface.",
     "p2": "I work mainly with <1>Next.js</1> on the front-end and <1>NestJS</1> on the back-end, applying principles such as <1>Clean Architecture</1>, <1>SOLID</1> and containerization with <1>Docker</1>. I focus on delivering clean, secure, scalable code with a good user experience (UX/UI).",
-    "p3": "I master modern technologies such as HTML, CSS, JavaScript, TypeScript, React, Node.js and relational databases/NoSQL. I'm looking for an opportunity to grow professionally, applying my skills in responsive web solutions,functional and optimized, contributing to the success of the team and customers.",
+    "p3": "Currently, I focus on stacks based on React and Nest.js, always seeking to apply the best development practices, such as TDD, CI/CD and Clean Architecture.",
     "stats": {
       "experience": "Years of Experience",
       "projects": "Delivered Projects",
