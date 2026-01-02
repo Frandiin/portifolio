@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-slate-950 text-slate-200 font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-indigo-500/30 text-indigo-200;
+  }
+}
+
+@layer utilities {
+  .glass-nav {
+    @apply bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400;
+  }
+}

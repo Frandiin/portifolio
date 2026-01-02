@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "stack": "Stack",
+    "projects": "Projetos",
+    "experience": "Experiência",
+    "contact": "Contato",
+    "hireMe": "Contrate-me"
+  },
+  "hero": {
+    "portfolio": {
+      "title": "portfolio",
+      "role": "Full Stack Developer",
+      "skills": "Habilidades",
+      "age": "Idade",
+      "hobbies": {
+        "label": "Hobbies",
+        "value": "['Assistir animes', 'Jogar bola']"
+      },
+      "location": "Endereço",
+      "linkedin": "Linkedin",
+      "gitHub": "GitHub",
+      "consoleLog": "Disponível para oportunidades remotas/híbridas"
+    },
+    "available": "Disponível para projetos",
+    "role": "Desenvolvedor <1>Full Stack</1> focado em soluções escaláveis",
+    "description": "Transformo ideias complexas em experiências digitais fluidas. Especialista em React, Node.js e arquitetura de software de alta performance.",
+    "projectsBtn": "Ver Projetos",
+    "cvBtn": "Baixar CV",
+    "codeCard": {
+      "role": "'Desenvolvedor Full Stack Sênior'",
+      "skills": "['React', 'Node', 'Cloud']",
+      "hardWorker": "true",
+      "passion": "Infinito",
+      "serverStatus": "Status do Servidor",
+      "online": "Online"
+    }
+  },
+  "about": {
+    "title": "Sobre <1>Mim</1>",
+    "p1": "Sou um desenvolvedor apaixonado por criar software que resolve problemas reais. Com mais de 5 anos de experiência no ecossistema JavaScript, especializei-me na construção de aplicações web modernas, performáticas e escaláveis.",
+    "p2": "Minha abordagem combina um forte conhecimento técnico em <1>arquitetura de software</1> com uma sensibilidade apurada para <2>UX/UI</2>. Acredito que o código limpo é apenas o começo; o verdadeiro valor está em entregar produtos que os usuários adoram usar.",
+    "p3": "Atualmente, foco em stacks baseadas em React e Node.js, sempre buscando aplicar as melhores práticas de desenvolvimento, como TDD, CI/CD e Clean Architecture.",
+    "stats": {
+      "experience": "Anos de Experiência",
+      "projects": "Projetos Entregues",
+      "companies": "Empresas Atendidas",
+      "contributions": "Contribuições Open Source"
+    }
+  },
+  "stack": {
+    "title": "Minha <1>Tech Stack</1>",
+    "subtitle": "Ferramentas e tecnologias que utilizo para dar vida a ideias e construir produtos de alta performance."
+  },
+  "projects": {
+    "title": "Projetos <1>Recentes</1>",
+    "subtitle": "Uma seleção de projetos que demonstram minha paixão por resolver problemas complexos com código limpo e eficiente.",
+    "viewAll": "Ver todos no GitHub",
+    "code": "Código",
+    "demo": "Demo Ao Vivo",
+    "items": {
+      "blog": {
+        "title": "Blog",
+        "description": "Blog fullstack com autenticação, criação e listagem de posts entre usuários. O diferencial é o controle de categorias: apenas o administrador define as categorias disponíveis, e os usuários escolhem entre elas ao publicar. Desenvolvido com Next.js no frontend, focando em SEO e performance, e NestJS no backend, usando sua arquitetura opinativa para uma API escalável e bem estruturada."
+      },
+      "wanessa": {
+        "title": "Wanessa Dias",
+        "description": "Landing page para estúdio de tatuagem, focado em atrair novos clientes e aumentar o número de agendamentos. A página apresenta uma galeria com os trabalhos do tatuador, permitindo que visitantes avaliem estilo, qualidade e variedade das tatuagens antes de entrar em contato. Além disso, a estrutura destaca a identidade do estúdio, depoimentos e chamadas para ação claras, incentivando o agendamento direto via formulário ou WhatsApp."
+      },
+      "point": {
+        "title": "Point Cleaning",
+        "description": "Landing page para empresa de limpeza, focada em atrair novos clientes e aumentar o número de agendamentos. A página apresenta uma galeria com os trabalhos do tatuador, permitindo que visitantes avaliem estilo, qualidade e variedade das tatuagens antes de entrar em contato. Além disso, a estrutura destaca a identidade do estúdio, depoimentos e chamadas para ação claras, incentivando o agendamento direto via formulário ou WhatsApp."
+      }
+    }
+  },
+  "experience": {
+    "title": "Jornada <1>Profissional</1>",
+    "items": {
+      "alana": {
+        "company": "Startup de experiências de aventura ",
+        "role": "Desenvolvedor Full Stack",
+        "description": "Responsável pelo desenvolvimento completo do back-end em NestJS, implementando todos os endpoints da API, autenticação/autorização com JWT e refresh tokens. Integração com serviços externos como Algolia para busca avançada. No front-end com Next.js, foquei na integração com o back-end e ajustes de layout (design baseado em Lovable). Maior desafio: implementar suporte a múltiplos idiomas subindo um container Docker com LibreTranslate para traduções em tempo real."
+      },
+      "startup": {
+        "company": "Startup de Recrutamento Inteligente",
+        "role": "Desenvolvedor Full Stack",
+        "description": "Atuei na manutenção e evolução de um sistema de gerenciamento de vagas para recrutadores. Desenvolvi novas features, correções e otimizações em uma aplicação full-stack com NestJS (back-end) e Next.js (front-end). O foco principal era calcular e exibir probabilidades de match entre candidatos e vagas, ajudando recrutadores a priorizarem perfis com maior compatibilidade."
+      }
+    }
+  },
+  "contact": {
+    "title": "Vamos trabalhar <1>juntos?</1>",
+    "description": "Estou sempre aberto a novos desafios e parcerias. Se você tem um projeto em mente ou apenas quer trocar uma ideia, entre em contato!",
+    "email": "Email",
+    "linkedin": "Linkedin",
+    "location": "Localização",
+    "locationValue": "São Paulo, SP - Brasil (Remoto)",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Seu nome",
+      "email": "Email",
+      "emailPlaceholder": "seu@email.com",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Sobre o projeto...",
+      "message": "Mensagem",
+      "messagePlaceholder": "Sua mensagem...",
+      "send": "Enviar para WhatsApp",
+      "whatsappMessage": "*Novo Contato via Portfólio* 🚀%0A%0A*Nome:* {{name}}%0A*Email:* {{email}}%0A*Assunto:* {{subject}}%0A*Mensagem:*%0A{{message}}"
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} DevPortfolio. Todos os direitos reservados.",
+    "madeWith": "Desenvolvido com React, Vite & Tailwind CSS"
+  }
+}

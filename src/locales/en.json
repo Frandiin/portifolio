@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "portfolio": {
+      "title": "portfolio",
+      "role": "Full Stack Developer",
+      "skills": "Skills",
+      "age": "Age",
+      "hobbies": {
+        "label": "Hobbies",
+        "value": "['Watch anime', 'Play ball']"
+      },
+      "location": "Location",
+      "linkedin": "Linkedin",
+      "gitHub": "GitHub",
+      "consoleLog": "Available for remote/hybrid opportunities"
+    },
+    "available": "Available for projects",
+    "role": "<1>Full Stack</1> Developer focused on scalable solutions",
+    "description": "I transform complex ideas into seamless digital experiences. Specialist in React, Node.js, and high-performance software architecture.",
+    "projectsBtn": "View Projects",
+    "cvBtn": "Download CV",
+    "codeCard": {
+      "role": "'Senior Full Stack Dev'",
+      "skills": "['React', 'Node', 'Cloud']",
+      "hardWorker": "true",
+      "passion": "Infinity",
+      "serverStatus": "Server Status",
+      "online": "Online"
+    }
+  },
+  "about": {
+    "title": "About <1>Me</1>",
+    "p1": "I am a Full Stack Developer with practical experience in freelance projects, working on the complete development of web applications from the database to the user interface.",
+    "p2": "I work mainly with <1>Next.js</1> on the front-end and <1>NestJS</1> on the back-end, applying principles such as <1>Clean Architecture</1>, <1>SOLID</1> and containerization with <1>Docker</1>. I focus on delivering clean, secure, scalable code with a good user experience (UX/UI).",
+    "p3": "I master modern technologies such as HTML, CSS, JavaScript, TypeScript, React, Node.js and relational databases/NoSQL. I'm looking for an opportunity to grow professionally, applying my skills in responsive web solutions,functional and optimized, contributing to the success of the team and customers.",
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Delivered Projects",
+      "companies": "Companies Served",
+      "contributions": "Open Source Contributions"
+    }
+  },
+  "stack": {
+    "title": "My <1>Tech Stack</1>",
+    "subtitle": "Tools and technologies I use to bring ideas to life and build high-performance products."
+  },
+  "projects": {
+    "title": "Recent <1>Projects</1>",
+    "subtitle": "A selection of projects demonstrating my passion for solving complex problems with clean and efficient code.",
+    "viewAll": "View all on GitHub",
+    "code": "Code",
+    "demo": "Live Demo",
+    "items": {
+      "blog": {
+        "title": "Blog",
+        "description": "Fullstack blog with authentication, creation and listing of posts between users. The difference is category control: only the administrator defines the available categories, and users choose between them when publishing. Developed with Next.js on the frontend, focusing on SEO and performance, and NestJS on the backend, using its opinionated architecture for a scalable and well-structured API."
+      },
+      "wanessa": {
+        "title": "Wanessa Dias",
+        "description": "Landing page for a tattoo studio, focused on attracting new customers and increasing the number of appointments. The page features a gallery of the tattoo artist's work, allowing visitors to evaluate the style, quality and variety of tattoos before getting in touch. Furthermore, the structure highlights the studio's identity, testimonials and clear calls to action, encouraging direct scheduling via form or WhatsApp. landing page for tattoo studio, focused on attracting new customers and increasing the number of appointments. The page features a gallery of the tattoo artist's work, allowing visitors to evaluate the style, quality and variety of tattoos before getting in touch. Furthermore, the structure highlights the studio's identity, testimonials and clear calls to action, encouraging direct booking via form or WhatsApp."
+      },
+      "point": {
+        "title": "Point Cleaning",
+        "description": "Landing page for a cleaning company, focused on attracting new customers and increasing the number of appointments. The page features a gallery of the tattoo artist's work, allowing visitors to evaluate the style, quality and variety of tattoos before getting in touch. Furthermore, the structure highlights the studio's identity, testimonials and clear calls to action, encouraging direct booking via form or WhatsApp."
+      }
+    }
+  },
+  "experience": {
+    "title": "<1>Professional</1> Journey",
+    "items": {
+      "alana": {
+        "company": "Adventure Experiences Startup (C-137)",
+        "role": "Full Stack Developer",
+        "description": "Responsible for complete back-end development in NestJS, implementing all API endpoints, authentication/authorization with JWT and refresh tokens. Integration with external services like Algolia for advanced search. On the front-end with Next.js, I focused on integration with the back-end and layout adjustments (design based on Lovable). Biggest challenge: implementing support for multiple languages ​​by uploading a Docker container with LibreTranslate for real-time translations."
+      },
+      "startup": {
+        "company": "Smart Recruitment Startup",
+        "role": "Full Stack Developer",
+        "description": "I worked on the maintenance and evolution of a vacancy management system for recruiters. Developed new features, fixes and optimizations in a full-stack application with NestJS (back-end) and Next.js (front-end). The main focus was to calculate and display match probabilities between candidates and vacancies, helping recruiters prioritize profiles with greater compatibility."
+      }
+    }
+  },
+  "contact": {
+    "title": "Let's work <1>together?</1>",
+    "description": "I'm always open to new challenges and partnerships. If you have a project in mind or just want to chat, get in touch!",
+    "email": "Email",
+    "linkedin": "Linkedin",
+    "location": "Location",
+    "locationValue": "São Paulo, SP - Brazil (Remote)",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "About the project...",
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "send": "Send to WhatsApp",
+      "whatsappMessage": "*New Contact via Portfolio* 🚀%0A%0A*Name:* {{name}}%0A*Email:* {{email}}%0A*Subject:* {{subject}}%0A*Message:*%0A{{message}}"
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} DevPortfolio. All rights reserved.",
+    "madeWith": "Developed with React, Vite & Tailwind CSS"
+  }
+}
