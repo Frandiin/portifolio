@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Linkedin, Mail, MapPin, Send } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Send } from 'lucide-react';
 import { useState } from 'react';
 import { useTranslation, Trans } from 'react-i18next';
 
@@ -75,14 +75,32 @@ export const Contact = () => {
                   <Linkedin size={24} />
                 </div>
                 <div>
-                  <h4 className="font-medium text-slate-200">{t('contact.linkedin')}</h4>
                   <a
                     href="https://www.linkedin.com/in/wellington-frandin/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-slate-400 transition-colors hover:text-indigo-400"
+                    className="text-slate-400 transition-colors"
                   >
-                    wellingtonfrandin
+                    <h4 className="font-medium text-slate-200 hover:text-indigo-400">
+                      {t('contact.linkedin')}
+                    </h4>
+                  </a>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <div className="rounded-lg bg-indigo-500/10 p-3 text-indigo-400">
+                  <Github size={24} />
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/Frandiin"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-400 transition-colors"
+                  >
+                    <h4 className="font-medium text-slate-200 hover:text-indigo-400">
+                      {t('contact.github')}
+                    </h4>
                   </a>
                 </div>
               </div>

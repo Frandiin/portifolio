@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
 import { PROJECTS } from '../constants';
 import { RichText } from './RichText';
 import { ExpandableText } from './ExpandableText';
+import { GithubDropdown } from './GithubDropdown';
+import { ExternalLink } from 'lucide-react';
 
 export const Projects = () => {
   return (
@@ -72,12 +73,7 @@ export const Projects = () => {
 
                 <div className="mt-auto pt-6">
                   <div className="flex items-center gap-4">
-                    <a
-                      href={project.github}
-                      className="inline-flex items-center gap-2 text-sm font-medium text-slate-300 transition-colors hover:text-white"
-                    >
-                      <Github size={18} /> <RichText i18nKey="projects.code" />
-                    </a>
+                    <GithubDropdown repos={project.github} />
 
                     <a
                       href={project.demo}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Code2, Languages } from 'lucide-react';
+import { Menu, X, Code2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { NAV_LINKS } from '../constants';
@@ -16,11 +16,6 @@ export const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
-  const toggleLanguage = () => {
-    const newLang = i18n.language === 'pt' ? 'en' : 'pt';
-    i18n.changeLanguage(newLang);
-  };
 
   return (
     <nav
@@ -52,13 +47,28 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center gap-2 rounded-full bg-slate-800 px-3 py-1.5 text-sm font-medium text-slate-300 transition-all hover:bg-slate-700 hover:text-white"
-            >
-              <Languages size={16} />
-              <span>{i18n.language === 'pt' ? 'English' : 'Portuguese'}</span>
-            </button>
+            <div className="flex items-center gap-1 rounded-full bg-slate-800 p-1">
+              <button
+                onClick={() => i18n.changeLanguage('pt')}
+                className={`rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
+                  i18n.language === 'pt'
+                    ? 'bg-indigo-600 text-white'
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                PT
+              </button>
+              <button
+                onClick={() => i18n.changeLanguage('en')}
+                className={`rounded-full px-3 py-1.5 text-sm font-medium transition-all ${
+                  i18n.language === 'en'
+                    ? 'bg-indigo-600 text-white'
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                EN
+              </button>
+            </div>
 
             <a
               href="#contact"
@@ -68,14 +78,29 @@ export const Navbar = () => {
             </a>
           </div>
 
-          <div className="flex items-center gap-4 lg:hidden">
-            <button
-              onClick={toggleLanguage}
-              className="flex items-center gap-2 p-2 text-slate-300 transition-colors hover:text-white"
-            >
-              <Languages size={20} />
-              <span>{i18n.language === 'pt' ? 'EN' : 'PT'}</span>
-            </button>
+          <div className="flex items-center gap-2 lg:hidden">
+            <div className="flex items-center gap-1 rounded-full bg-slate-800 p-1">
+              <button
+                onClick={() => i18n.changeLanguage('pt')}
+                className={`rounded-full px-2.5 py-1 text-xs font-medium transition-all ${
+                  i18n.language === 'pt'
+                    ? 'bg-indigo-600 text-white'
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                PT
+              </button>
+              <button
+                onClick={() => i18n.changeLanguage('en')}
+                className={`rounded-full px-2.5 py-1 text-xs font-medium transition-all ${
+                  i18n.language === 'en'
+                    ? 'bg-indigo-600 text-white'
+                    : 'text-slate-400 hover:text-slate-200'
+                }`}
+              >
+                EN
+              </button>
+            </div>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 text-slate-300 transition-colors hover:text-white"

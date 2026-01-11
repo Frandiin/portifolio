@@ -79,7 +79,16 @@ export const PROJECTS = [
     description: 'projects.items.blog.description',
     tags: ['Next.js', 'TypeScript', 'Docker', 'Nest.JS', 'Prisma'],
     image: '/blog.png',
-    github: 'https://github.com/DevWellington/blog',
+    github: [
+      {
+        label: 'Frontend',
+        url: 'https://github.com/Frandiin/next-gen-admin-panel',
+      },
+      {
+        label: 'Backend',
+        url: 'https://github.com/Frandiin/nest-prisma-docker',
+      },
+    ],
     demo: 'https://next-gen-admin-panel.vercel.app/',
   },
   {
@@ -87,7 +96,12 @@ export const PROJECTS = [
     description: 'projects.items.wanessa.description',
     tags: ['Next.js', 'Framer Motion', 'Tailwndcss'],
     image: 'wanessa.png',
-    github: 'https://github.com/Frandiin/WanessaTatto',
+    github: [
+      {
+        label: 'Code',
+        url: 'https://github.com/Frandiin/WanessaTatto',
+      },
+    ],
     demo: 'https://wanessa-tatto.vercel.app/',
   },
   {
@@ -95,7 +109,12 @@ export const PROJECTS = [
     description: 'projects.items.point.description',
     tags: ['React', 'Vite', 'Tailwndcss'],
     image: 'point.png',
-    github: 'https://github.com/Frandiin/PointCleaning',
+    github: [
+      {
+        label: 'Code',
+        url: 'https://github.com/Frandiin/PointCleaning',
+      },
+    ],
     demo: 'https://www.pointcleaning.net/',
   },
 ];
